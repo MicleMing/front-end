@@ -1,0 +1,80 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+#test{
+    height: 2000px;
+}
+.float-bar{
+    position: fixed;
+    bottom: 100px;
+    right: 80px;
+}
+
+.float-bar a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+
+    background-color: #cccccc;
+    transition:background-color 1s;
+    -webkit-transition:background-color 1s;
+    -moz-transition:background-color 1s;
+    -o-transition:background-color 1s;
+
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius:6px;
+}
+
+.float-bar a:hover{
+    background-color: #888;
+}
+
+.float-bar span{
+    color: #cccccc;
+}
+#back-to-top{
+    text-align: center;;
+}
+#back-to-top a{
+    background-image: url(../images/arrow-up.png);
+}
+#suggestion a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing:border-box;
+    padding-top: 15px;
+}
+/*气泡框*/
+#dialog{
+    position: absolute;
+    left:-179px;
+    top: -30px;
+    width: 150px;
+    height: 80px;
+    background-color: #e4e4e4;
+
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius:6px;
+
+    padding: 5px;
+    font-size: 12px;
+}
+.spanStyle{
+    position: absolute;
+    left: -30px;
+    top: 15px;
+    font-size: 40px;
+    color:#e4e4e4 !important;
+}
