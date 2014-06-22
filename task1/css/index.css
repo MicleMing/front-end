@@ -1,0 +1,115 @@
+html,body,h1,h2,p.span{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#content{
+    margin: 0 auto;
+    width: 60%;
+    height: 600px;
+    background: url("../images/bg.gif") repeat-x;
+    padding-top: 4em;
+
+}
+
+#rectangle{
+    margin: auto;
+    width: 40%;
+    height: 85%;
+    background-color: white;
+
+}
+#rectangleTop{
+    width: 100%;
+    height: 33%;
+    background-color: #E7DECD;
+
+
+}
+#rectangleMid{
+    width: 100%;
+    height: 52%;
+    background-color: #31373F;
+    border-left: 1px solid #191C21;
+    border-right: 1px solid #191C21;
+    border-bottom: 1px solid #191C21;
+}
+h1{
+    padding-top: 4em;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #E7E0CE;
+}
+h2{
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #545E68;
+}
+
+#btn{
+    width: 50%;
+    height: 3em;
+    margin: 0 auto;
+    background-color: #C44C32;
+    border:1px solid #1C2127;
+    margin-top: 2em;
+}
+#btn p{
+    font-size: 1.1em;
+    line-height: 0.5em;
+    text-align: center;
+    color:#fff;
+}
+#rectangleBottom{
+    width: 100%;
+    height: 15%;
+    background-color: #31373F;
+    border-top:2px solid #3F434E;
+    border-left: 1px solid #191C21;
+    border-right: 1px solid #191C21;
+    border-bottom: 1px solid #191C21;
+}
+.buttons{
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+.buttons_border_left{
+    border-left: 1px solid #191C21;
+}
+.buttons_border_right{
+    border-right: 2px solid #3F434E;
+}
+.buttons span{
+    font-size: 1.25em;
+    color: #1C2127;
+    padding-right: 0.3em;
+}
+.buttons p{
+    font-size: 1.2em;
+    text-align: center;
+    color:#545E68;
+}
+#avatar{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #e8dfcd;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius:150px;
+    left: 44%;
+    top: 19%;
+}
+#avatar img{
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius:150px
+}
