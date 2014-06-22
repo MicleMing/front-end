@@ -1,0 +1,19 @@
+#about{
+    width: 100%;
+    min-height:200px;
+}
+#about > ul{
+    list-style-type: none;
+    margin-left: -35px;
+}
+#about>ul>li{
+    padding:0 0.3em;
+}
+#about p{
+    text-indent: 4em;
+    font-size: 0.9em;
+}
+#about article{
+    font-size: 0.8em;
+    text-indent: 2em;
+}

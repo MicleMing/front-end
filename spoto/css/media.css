@@ -1,0 +1,38 @@
+
+@media all and (max-width:350px) {
+    /*index*/
+    #nav>ul>li{
+        font-size: 0.7em;
+        height:70%;
+        padding:0.7rem 0;
+        padding:11px 0;/*16*0.7*/
+    }
+    header{
+        width: 100%;
+        height:2.1rem;
+        font-size: 0.7em;
+        margin-top: -1.1em;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-top: 0.56rem;/*0.8*0.7*/
+    }
+    p{
+        font-size: 0.7rem;
+    }
+    .lesson img{
+        margin: 1.5% 0.5rem;
+    }
+    #news ul>li{
+        font-size: 0.7em;
+    }
+      /*news*/
+    #dividePage>ul>li{
+        font-size: 0.7em;
+    }
+}
+@media all and(min-width: 350px){
+    p{
+        font-size: 10px !important;
+    }
+}
